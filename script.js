@@ -84,7 +84,7 @@ function updateDeviceList(devices) {
 // Update current status based on flame values
 function updateCurrentStatus(devices) {
     const statusBox = document.getElementById("current-status");
-    const fireDevices = devices.filter(device => device.flame === "1"); // Lọc các thiết bị có flame = 1
+    const fireDevices = devices.filter(device => device.flame == "1"); // Lọc các thiết bị có flame = 1
 
     if (fireDevices.length == "0") {
         // Không có cháy
