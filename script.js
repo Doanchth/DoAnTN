@@ -20,7 +20,7 @@ let markers = [];
 // Initialize Google Map
 function initMap() {
     map = new google.maps.Map(document.getElementById("google-map"), {
-        center: { lat: 11.6434 , lng: 106.2845 }, // Default center (Hà Nội)
+        center: { lat: 10.85101 , lng: 106.77242 }, // Default center (Hà Nội)
         zoom: 8,
     });
     fetchDevices();
